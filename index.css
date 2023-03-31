@@ -1,0 +1,50 @@
+body {
+     margin: 0;
+     padding: 0;
+}
+
+.hd {
+    padding: 10px;
+}
+
+h2 {
+    font-family: Verdana;
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+    color: #703993;
+}
+
+p, ul {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    color: #353535;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #0046c0;
+    text-decoration: underline;
+}
+
+
+
+
+.tl {
+    display: flex;
+    align-items: flex-start;
+    margin: 5px
+}
